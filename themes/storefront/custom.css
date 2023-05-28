@@ -1,0 +1,79 @@
+.woocommerce-LoopProduct-link img:hover {
+    transform: scale(1.2);
+    
+}
+  .woocommerce-LoopProduct-link img {
+    height: 120px;
+    width: 500px;
+    transition: transform 1s;
+}
+  .woocommerce-loop-product__title {
+    font-weight: bold;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.site-header{
+    background-color: #fff;
+}
+.woocommerce-breadcrumb a {
+  text-decoration: none !important;
+}
+.site-info a {
+  text-decoration: none;
+}
+
+
+/* Đặt chiều rộng tối đa cho phần header */
+#masthead {
+  max-width: 100%;
+}
+
+/* Canh giữa nội dung phần header */
+#masthead .col-full {
+  display: flex;
+  justify-content: space-between; /* Đặt khoảng cách trống hai bên */
+  align-items: center;
+}
+
+/* Định dạng logo */
+.custom-logo img {
+  margin-left: 300px;
+  max-height: 80px;
+}
+
+/* Định dạng phần menu chính */
+.primary-navigation ul.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.primary-navigation ul.menu li {
+  margin: 0 10px;
+}
+
+.primary-navigation ul.menu li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+/* Định dạng giỏ hàng */
+  
+
+.site-header-cart .count {
+  margin-left: 5px;
+}
+
+.site-header-cart .woocommerce-Price-amount {
+  font-weight: bold;
+}
+
+.site-header-cart .widget_shopping_cart_content {
+  display: none;
+  /* Định dạng nội dung giỏ hàng nếu cần */
+}
